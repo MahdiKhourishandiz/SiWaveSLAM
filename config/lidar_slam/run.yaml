@@ -1,0 +1,28 @@
+setting:
+  name: "SiWaveSLAM"
+  output_root: "./experiments"
+  deskew: True
+process:
+  max_range_m: 80.0
+sampler:
+  surface_sample_range_m: 0.25
+neuralpoints:
+  voxel_size_m: 0.4
+  search_alpha: 0.5
+continual:
+  batch_size_new_sample: 1000
+  pool_capacity: 1e7
+  pool_filter_freq: 10
+tracker:
+  source_vox_down_m: 0.6
+  iter_n: 50
+  valid_nn_k: 5
+pgo:
+  map_context: True
+  context_cosdist: 0.3
+optimizer:
+  batch_size: 10000
+  adaptive_iters: True
+eval:
+  wandb_vis_on: False
+  silence_log: True
