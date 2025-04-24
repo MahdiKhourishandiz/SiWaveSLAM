@@ -1,2 +1,0 @@
-git checkout  0e0227eb5e8e72240635145c3d459c36f06a6c98 
-python3 SiWaveSLAM.py config\lidar_slam\kitti_dataset.yaml
