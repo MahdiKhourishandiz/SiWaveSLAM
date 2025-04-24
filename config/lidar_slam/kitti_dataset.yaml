@@ -1,9 +1,9 @@
 setting:
   name: "test_kitti"
   output_root: "./experiments"
-  pc_path: "G:/Dataset/data_odometry_velodyne/data_list/kitti_list/04/velodyne"
-  pose_path: "G:/Dataset/data_odometry_velodyne/data_list/poses/04.txt"
-  calib_path: "G:/Dataset/data_odometry_velodyne/data_list/kitti_list/04/calib.txt"
+  pc_path: "G:/Dataset/data_odometry_velodyne/data_list/kitti_list/07/velodyne"
+  pose_path: "G:/Dataset/data_odometry_velodyne/data_list/poses/07.txt"
+  calib_path: "G:/Dataset/data_odometry_velodyne/data_list/kitti_list/07/calib.txt"
   kitti_correct: True
   correct_deg: 0.195
 #  device: "cpu"
