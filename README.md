@@ -21,7 +21,7 @@ We introduce SiWaveSLAM, an autonomous vehicle LiDAR-based SLAM system that util
 ### 1. Clone the repository
 
 ```
-git clone git@github.com/MahdiKhourishandiz/SiWaveSLAM
+git clone https://github.com/MahdiKhourishandiz/SiWaveSLAM.git
 cd SiWaveSLAM
 ```
 
