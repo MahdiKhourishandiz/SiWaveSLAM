@@ -32,9 +32,9 @@ Go to https://www.cvlibs.net/datasets/kitti/user_login.php
 and Download odometry data set (velodyne laser data, 80 GB)
 ```
 
-### 3. download KITTI Dataset
+### 3. Change your KITTI Dataset
 ```
-chenge path to your kitti in config file in
+Change your KITTI Dataset path in the config file.
 config\lidar_slam\kitti_dataset.yaml
 ```
 
