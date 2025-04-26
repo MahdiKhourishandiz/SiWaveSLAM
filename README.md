@@ -26,7 +26,7 @@ cd SiWaveSLAM
 ```
 
 
-### 2. download KITTI Dataset
+### 2. Download KITTI Dataset
 ```
 Go to https://www.cvlibs.net/datasets/kitti/user_login.php
 and Download odometry data set (velodyne laser data, 80 GB)
